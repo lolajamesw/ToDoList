@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* index.css */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-lime-50); /* emerald-50 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-amber-900); /* emerald-800 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-amber-950); /* emerald-700 */
+}
